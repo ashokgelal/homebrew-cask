@@ -2,13 +2,13 @@ cask "xcodepilot" do
   version "1.5.0,27"
   sha256 "3de58f7b2ef6f19d6a4202421dfdfe8ec9a1456e7e0c170871725969c064c15b"
 
-  url "https://xcodepilot.thriller.fun/packages/appcast/XcodePilot.v#{version.csv.first}_#{version.csv.second}.zip"
+  url "http://xcodepilot.thriller.fun/docs/packages/appcast/XcodePilot.v#{version.csv.first}_#{version.csv.second}.zip"
   name "XcodePilot"
   desc "Toolset for Apple developers to increase productivity and efficiency"
-  homepage "https://xcodepilot.thriller.fun/"
+  homepage "http://xcodepilot.thriller.fun/"
 
   livecheck do
-    url "https://xcodepilot.thriller.fun/packages/appcast/appcast.xml"
+    url "http://xcodepilot.thriller.fun/docs/packages/appcast/appcast.xml"
     strategy :sparkle
   end
 
